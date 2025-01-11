@@ -1,14 +1,13 @@
+# About this project
+
+This project was made within 2 hours as part of [GitHub Copilot 1-Day Build Challenge](https://dev.to/devteam/join-us-for-the-github-copilot-1-day-build-challenge-3000-in-prizes-3o2i?bb=202755).
+
 # EOL CLI
 
 This CLI application lists items from the End of Life API.
 
 ## How to build
 
-To build the application, follow these steps:
-
-1. Open a terminal and navigate to the root directory of your project.
-
-2. Run the following command to compile the application:
 
 ```sh
 go build -o eol cmd/main.go
