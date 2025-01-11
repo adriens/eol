@@ -16,7 +16,6 @@ export PATH=$PATH:.
 
 ```
 
-    This command will create an executable file named [eol](http://_vscodecontentref_/1) in the current directory.
 
 ## How to run
 
