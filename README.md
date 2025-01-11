@@ -22,6 +22,11 @@ export PATH=$PATH:.
 To run the compiled application, use the following command:
 
 ```sh
+eol -h
+
+```
+
+```sh
 eol -l
 ```
 
