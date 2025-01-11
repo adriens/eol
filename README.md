@@ -30,3 +30,7 @@ To run the compiled application, use the following command:
 
 This command will list all items from the End of Life API.
 
+```sh
+# End of life of my favorite stack
+./eol maven java quarkus
+```
