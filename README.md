@@ -10,9 +10,11 @@ To build the application, follow these steps:
 
 2. Run the following command to compile the application:
 
-    ```sh
-    go build -o eol cmd/main.go
-    ```
+```sh
+go build -o eol cmd/main.go
+export PATH=$PATH:.
+
+```
 
     This command will create an executable file named [eol](http://_vscodecontentref_/1) in the current directory.
 
@@ -21,16 +23,16 @@ To build the application, follow these steps:
 To run the compiled application, use the following command:
 
 ```sh
-./eol -l
+eol -l
 ```
 
 ```sh
-./eol --list
+eol --list
 ```
 
 This command will list all items from the End of Life API.
 
 ```sh
-# End of life of my favorite stack
-./eol maven java quarkus
+# End of life of my favorite java stack
+eol maven java quarkus
 ```
