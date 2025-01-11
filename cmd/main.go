@@ -136,13 +136,13 @@ func getProductInfo(product string) {
 }
 
 func printHelp() {
-	fmt.Println("CLI to show end-of-life dates for a number of products, from https://endoflife.date")
+	fmt.Println("CLI to show end-of-life (eol) dates for a number of products, from https://endoflife.date. See https://bit.ly/4jd3lbH for more.")
 	fmt.Println()
 	fmt.Println("For example:")
 	fmt.Println()
 	fmt.Println("* `eol python` to see Python EOLs")
 	fmt.Println("* `eol ubuntu` to see Ubuntu EOLs")
 	fmt.Println("* `eol centos fedora` to see CentOS and Fedora EOLs")
-	fmt.Println("* `eol quarkus ubuntu` to see Quarkus and Ubuntu EOLs")
+	fmt.Println("* `eol java quarkus` to see Quarkus and Java EOLs")
 	fmt.Println("* `eol -l` or `eol --list` to list all available products")
 }
