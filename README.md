@@ -6,6 +6,10 @@ This project was made within 2 hours as part of [GitHub Copilot 1-Day Build Chal
 
 This CLI application lists items from the End of Life API.
 
+[![YouTube Video](https://img.youtube.com/vi/zcXKJ1KPn28/0.jpg)](https://www.youtube.com/watch?v=zcXKJ1KPn28)
+
+
+
 ## How to build
 
 
